@@ -21,6 +21,7 @@
 html{
     background-color: var(--Cinza_FakeUni);
     font-family: Helvetica, sans-serif, Arial;
+    box-sizing: border-box;
 
     margin: 0;
     padding: 0;
@@ -147,6 +148,14 @@ li{
 
     /* SECTION */
 
+    .FU_Menu{
+        display: flex;
+    }
+
+    /* SECTION */
+
+    
+
     .FU_menuLateral{
         display: flex;
         overflow: scroll;
@@ -194,6 +203,20 @@ li{
 
 
     /* SECTION */
+
+    /* MENU CENTRAL */
+
+    .FU_menuCentral{
+        flex:70%;
+
+        
+        background-color: black;
+        width: 200px;
+        height: 100vh;
+    }
+
+   
+    /* MENU CENTRAL */
 
 
 
